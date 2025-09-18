@@ -1,0 +1,17 @@
+{
+  "name": "vectors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Vector.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "node --watch Vector.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
