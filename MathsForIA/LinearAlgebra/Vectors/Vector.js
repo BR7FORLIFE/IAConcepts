@@ -63,10 +63,11 @@ function distanceVector(vector1, vector2) {
   );
   return Math.sqrt(result);
 }
-
-function operationWithVectors(operation, vectors) {}
-
-function operationWithVectors(typeOfOperation, vectors, escalar = 0) {
+export default function operationWithVectors(
+  typeOfOperation,
+  vectors,
+  escalar = 0
+) {
   switch (typeOfOperation) {
     case "sum":
       return sumVector(vectors);
@@ -82,10 +83,3 @@ function operationWithVectors(typeOfOperation, vectors, escalar = 0) {
       return distanceVector(vectors[0], vectors[1]);
   }
 }
-
-console.log(
-  operationWithVectors("substraction", [
-    [1, 2, 3],
-    [4, 6, 3],
-  ])
-);
